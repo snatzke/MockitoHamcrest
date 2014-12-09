@@ -9,6 +9,11 @@ public class BillingViaPayPal implements BillingService {
         System.out.println("Hey guys, I am the fancy paypal billing service!");
     }
 
+    @Override
+    public int expirationYear() {
+        return 9999;
+    }
+
     public String foo() {
         return "Hallo Georg, das wird schon, Du stellst gute Fragen!";
     }

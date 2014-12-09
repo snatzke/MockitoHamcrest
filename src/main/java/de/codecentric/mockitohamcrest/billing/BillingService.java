@@ -5,4 +5,5 @@ package de.codecentric.mockitohamcrest.billing;
  */
 public interface BillingService {
     void pay();
+    int expirationYear();
 }
